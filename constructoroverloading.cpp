@@ -56,3 +56,6 @@ int main()
     mhs2.cetak();
     cout << "Mahasiswa 3:";
     mhs3.cetak();
+
+    return 0;
+}
