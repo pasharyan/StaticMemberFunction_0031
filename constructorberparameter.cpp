@@ -23,3 +23,9 @@ mahasiswa::mahasiswa(int nim, const string &nama)
     cout << "NIM  : " << this->nim << endl;
     cout << "Nama : " << this->nama << endl;
 }
+
+int main()
+{
+    mahasiswa mhs(12345, "Pascal");
+    return 0;
+}
